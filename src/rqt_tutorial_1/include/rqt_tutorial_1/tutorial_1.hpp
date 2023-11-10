@@ -8,7 +8,6 @@
 #include "rqt_gui_cpp/plugin.h"
 #include "geometry_msgs/msg/twist.hpp"
 
-#include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 
 #include <qwt_dial_needle.h>
 
