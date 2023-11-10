@@ -1,0 +1,12 @@
+<package format="2">
+    <name>rqt_tutorial_1</name>
+    <version>0.0.0</version>
+    <description>RQT ROS2 Tutorial 1.</description>
+    <license>Apache 2.0</license>
+    <author email="hisham.ahmad178@gmail.com">Hishamadie Ahmad</author>
+    <maintainer email="hisham.ahmad178@gmail.com">Hishamadie Ahmad</maintainer>
+    <export>
+        <build_type>ament_cmake</build_type>
+        <rqt_gui plugin="${prefix}/plugin.xml" />
+    </export>
+</package>
