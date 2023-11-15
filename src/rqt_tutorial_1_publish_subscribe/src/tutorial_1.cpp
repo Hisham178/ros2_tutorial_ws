@@ -1,12 +1,12 @@
 #include "pluginlib/class_list_macros.hpp"
-#include "rqt_tutorial_1/tutorial_1.hpp"
+#include "rqt_tutorial_1_publish_subscribe/tutorial_1.hpp"
 
 #include <qwt_dial_needle.h>
 #include <QtGui>
 
 using namespace std::chrono_literals;
 
-namespace rqt_tutorial_1
+namespace rqt_tutorial_1_publish_subscribe
 {
 Dashboard::Dashboard() : rqt_gui_cpp::Plugin(), widget_(0)
 {
@@ -99,5 +99,5 @@ void Dashboard::twist_callback(geometry_msgs::msg::Twist::SharedPtr msg)
   ui_.steering->setValue(value2);
 }
 
-}  // namespace rqt_tutorial_1
-PLUGINLIB_EXPORT_CLASS(rqt_tutorial_1::Dashboard, rqt_gui_cpp::Plugin)
+}  // namespace rqt_tutorial_1_publish_subscribe
+PLUGINLIB_EXPORT_CLASS(rqt_tutorial_1_publish_subscribe::Dashboard, rqt_gui_cpp::Plugin)

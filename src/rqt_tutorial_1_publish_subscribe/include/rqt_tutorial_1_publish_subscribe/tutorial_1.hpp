@@ -1,5 +1,5 @@
-#ifndef rqt_tutorial_1_HPP_
-#define rqt_tutorial_1_HPP_
+#ifndef rqt_tutorial_1_publish_subscribe_HPP_
+#define rqt_tutorial_1_publish_subscribe_HPP_
 
 // QT headers
 #include <QtCore/QTimer>
@@ -17,7 +17,7 @@ using namespace std;
 
 using std::placeholders::_1;
 
-namespace rqt_tutorial_1
+namespace rqt_tutorial_1_publish_subscribe
 {
 /**
  * @brief A RQT instance, to control and visualize robot states conviniently
@@ -66,6 +66,6 @@ protected:
   QPointer<QTimer> basic_timer_;
 };
 
-}  // namespace rqt_tutorial_1
+}  // namespace rqt_tutorial_1_publish_subscribe
 
-#endif  // rqt_tutorial_1_HPP
+#endif  // rqt_tutorial_1_publish_subscribe_HPP

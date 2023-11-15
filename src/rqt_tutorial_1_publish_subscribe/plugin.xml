@@ -1,5 +1,5 @@
-<library path="rqt_tutorial_1">
-    <class name="rqt_tutorial_1/Dashboard" type="rqt_tutorial_1::Dashboard" base_class_type="rqt_gui_cpp::Plugin">
+<library path="rqt_tutorial_1_publish_subscribe">
+    <class name="rqt_tutorial_1_publish_subscribe/Dashboard" type="rqt_tutorial_1_publish_subscribe::Dashboard" base_class_type="rqt_gui_cpp::Plugin">
         <description>
       Blank
     </description>
