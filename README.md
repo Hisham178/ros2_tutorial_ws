@@ -1,6 +1,6 @@
 # ros2_tutorial_ws
 
-Pubish and Subscribe using RQT C++
+1. Publish and subscribe using RQT in C++
 
 ![Alt text](<screen_capture/Screenshot from 2023-11-10 10-16-21.png>)
 
