@@ -14,6 +14,8 @@ The example is based on ros2 Humble. So install that first, then rosdep install 
 
 This is example on how to view RTSP stream in RQT. I use mediamtx from here https://github.com/bluenviron/mediamtx/releases/download/v1.3.0/mediamtx_v1.3.0_darwin_amd64.tar.gz to stream the video in RTSP but add few lines in it's YML file to use ffmpeg codec. It provides better latency and use a lot smaller bandwidth than display ros2 image topic.
 
+You need to install GStreamer first. Please follow the installation guide from here https://linux.how2shout.com/installing-gstreamer-on-ubuntu-22-04-or-20-04-lts-linux/
+
 This example use this address to view the stream in tutorial_2.cpp:
 
 ```
