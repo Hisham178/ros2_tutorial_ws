@@ -14,7 +14,16 @@ The example is based on ros2 Humble. So install that first, then rosdep install 
 
 This is example on how to view RTSP stream in RQT. I use mediamtx from here https://github.com/bluenviron/mediamtx/releases/download/v1.3.0/mediamtx_v1.3.0_darwin_amd64.tar.gz to stream the video in RTSP but add few lines in it's YML file to use ffmpeg codec. It provides better latency and use a lot smaller bandwidth than display ros2 image topic.
 
-Edit mediamtx.yml and replace everything inside section paths with the following content :
+This example use this address to view the stream in tutorial_2.cpp:
+
+```
+  // RTSP
+  QString camIP = "127.0.0.1";
+  QString camPort = "8554";
+  QString camPath = "cam";
+```
+
+Edit mediamtx.yml and replace everything inside section paths with the following content:
 
 ```
   paths:
@@ -23,8 +32,8 @@ Edit mediamtx.yml and replace everything inside section paths with the following
       runOnInitRestart: yes
 ```
 
-/dev/video0  is source of the video to stream. This might not be the same if have more than 1 camera.
-$RTSP_PORT  by default is 8554
-$MTX_POST  is 'cam'
+/dev/video0 -> is source of the video to stream. This might not be the same if have more than 1 camera.
+$RTSP_PORT -> by default is 8554
+$MTX_POST -> is 'cam'
 
 Run ./mediamtx first before view the stream on RQT

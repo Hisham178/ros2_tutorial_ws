@@ -1,0 +1,17 @@
+<library path="rqt_tutorial_2_rtsp_stream">
+    <class name="rqt_tutorial_2_rtsp_stream/Dashboard" type="rqt_tutorial_2_rtsp_stream::Dashboard" base_class_type="rqt_gui_cpp::Plugin">
+        <description>
+      Blank
+    </description>
+        <qtgui>
+            <group>
+                <label>Visualization</label>
+                <icon type="theme">folder</icon>
+                <statustip>Plugins related to visualization.</statustip>
+            </group>
+            <label>RTSP Stream</label>
+            <icon type="theme">image-x-generic</icon>
+            <statustip>A GUI plugin for viewing RTSP stream.</statustip>
+        </qtgui>
+    </class>
+</library>

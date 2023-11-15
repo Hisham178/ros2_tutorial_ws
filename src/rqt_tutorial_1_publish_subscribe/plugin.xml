@@ -9,9 +9,9 @@
                 <icon type="theme">folder</icon>
                 <statustip>Plugins related to visualization.</statustip>
             </group>
-            <label>rqt_tutorial_1</label>
+            <label>Odometer Publish and Subscribe</label>
             <icon type="theme">image-x-generic</icon>
-            <statustip>A GUI plugin for viewing UGV telemetry data.</statustip>
+            <statustip>A GUI plugin for publish and subscribe cmd_vel</statustip>
         </qtgui>
     </class>
 </library>
