@@ -7,6 +7,13 @@
 Here is just one simple example of using qt5 widget as plugin in rqt. It publish and subcribe cmd_vel topic. The slider will publish the cmd_vel topic and the odometer needles will display subsribed cmd_vel.   
 
 The example is based on ros2 Humble. So install that first, then rosdep install this package dependencies, colcon build and source the built package.   
+.
+.
+.
+.
+.
+.
+.
 
 2. RTSP stream
 
@@ -39,6 +46,13 @@ $RTSP_PORT -> by default is 8554
 $MTX_POST -> is 'cam'
 
 Run ./mediamtx first before view the stream on RQT
+.
+.
+.
+.
+.
+.
+.
 
 3. This is tutorial to read data from serial port from Sparkfun RTK-Ekspress. The data in this codes extract gps accuracy and publish back as a topic that can be used to display on RQT. 
 
@@ -59,7 +73,7 @@ How to :  1. Connect using usb to your pc(Ubuntu 22.04 Tested) using port that I
   ![Alt text](<screen_capture/Screenshot from 2023-12-15 10-57-43.png>)
 
   You can subsribe the data and display in RQT like this : 
-  ![Alt text](<screen_capture/Screenshot from 2023-12-15 10-57-43.png>)
+![Alt text](<screen_capture/Screenshot from 2023-12-15 10-58-43.png>)
         
 
 
