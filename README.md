@@ -7,13 +7,13 @@
 Here is just one simple example of using qt5 widget as plugin in rqt. It publish and subcribe cmd_vel topic. The slider will publish the cmd_vel topic and the odometer needles will display subsribed cmd_vel.   
 
 The example is based on ros2 Humble. So install that first, then rosdep install this package dependencies, colcon build and source the built package.   
-.
-.
-.
-.
-.
-.
-.
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 
 2. RTSP stream
 
@@ -46,13 +46,13 @@ $RTSP_PORT -> by default is 8554
 $MTX_POST -> is 'cam'
 
 Run ./mediamtx first before view the stream on RQT
-.
-.
-.
-.
-.
-.
-.
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 
 3. This is tutorial to read data from serial port from Sparkfun RTK-Ekspress. The data in this codes extract gps accuracy and publish back as a topic that can be used to display on RQT. 
 
@@ -60,13 +60,13 @@ This example does not cover the RQT part.
 
 ![Alt text](<screen_capture/18019-SparkFun_RTK_Express-09.jpg>)
 
-How to :  1. Connect using usb to your pc(Ubuntu 22.04 Tested) using port that I higlighted on the photo.
-          2. Type --> cd /dev/serial/by-path && ls -la
-          3. Choose the one that is RTK-Express and take note something like this "pci-0000:00:14.0-usb-0:6:1.0-port0"
-          4. Copy and replace in the code
-          5. colcon build 
-          6. source install/setup.bash
-          7. ros2 run gps_serial gps_accuracy
+How to :  1. Connect using usb to your pc(Ubuntu 22.04 Tested) using port that I higlighted on the photo.  
+          2. Type --> cd /dev/serial/by-path && ls -la  
+          3. Choose the one that is RTK-Express and take note something like this "pci-0000:00:14.0-usb-0:6:1.0-port0"  
+          4. Copy and replace in the code  
+          5. colcon build  
+          6. source install/setup.bash  
+          7. ros2 run gps_serial gps_accuracy  
 
   In few seconds the terminal will start print the accuracy data of the gps which also at the same time publishing gps accuracy in ros topic
 
