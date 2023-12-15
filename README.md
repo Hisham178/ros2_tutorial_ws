@@ -60,7 +60,8 @@ This example does not cover the RQT part.
 
 ![Alt text](<screen_capture/18019-SparkFun_RTK_Express-09.jpg>)
 
-How to :  1. Connect using usb to your pc(Ubuntu 22.04 Tested) using port that I higlighted on the photo.  
+How to :  
+          1. Connect using usb to your pc(Ubuntu 22.04 Tested) using port that I higlighted on the photo.  
           2. Type --> cd /dev/serial/by-path && ls -la  
           3. Choose the one that is RTK-Express and take note something like this "pci-0000:00:14.0-usb-0:6:1.0-port0"  
           4. Copy and replace in the code  
